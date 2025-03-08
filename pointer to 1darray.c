@@ -12,7 +12,7 @@ int main(){
 	}
 	return 0;
 }
-*/
+
 
 //by default the array name represents address (starting)
 #include<stdio.h>
@@ -24,4 +24,21 @@ int main(){
 	}
 	return 0;
 }
+
+
+*/
+
+//pointer incrementation
+
+#include<stdio.h>
+int main(){
+	int a[] = {10,20,30};
+	int i, *p;
+	p = &a;
+	for (i = 0;i<3;i++){
+		printf("%x %d\n",p,*p);//TAKES DEAFAULT STARTING ELEMENTS AND ITS ADDRESS
+		p++;//pointer incrementation
+	return 0;
+
+}}
 
